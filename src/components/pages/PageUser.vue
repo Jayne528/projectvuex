@@ -4,7 +4,7 @@
         <h2>you are {{$route.params.name}}</h2>
         <h2 v-if="user">You enter by id {{user}}</h2>
         <div>
-            <h3 v-for="todo in userTodos">{{todo.title}}</h3>
+            <h3 v-for="todo in userTodos" :key="todo.title">{{todo.title}}</h3>
         </div>
         <router-link to="/">To Page Home</router-link>
     </div>
