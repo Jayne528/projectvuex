@@ -19,8 +19,8 @@
     <br>
     <router-link to="/user/lisa">User Lisa</router-link>
     <br>
-    <router-link to="/user/id/1">User 1</router-link>git remote add origin
-    <router-link to="/user/id/2">User 2</router-link>
+    <router-link to="/user/id/1">User 1234</router-link>git remote add origin
+    <router-link to="/user/id/2">User 222</router-link>
     <router-link to="/user/id/3">User 3</router-link>
     <transition name="page" mode="out-in">
       <router-view :key="$route.path"/>
