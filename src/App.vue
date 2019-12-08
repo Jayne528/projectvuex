@@ -11,11 +11,11 @@
     </ul>
     <button @click="setTodos(['amy','bobo','cidy'])">Update Todos</button>
     <br>
-      <button @click="loadTodos">load Todos</button>
+      <button @click="loadTodos">load TodosA</button>
     <br>
     <router-link to="/test">To Page Test</router-link>
     <br>
-    <router-link to="/user/frank">User Frank</router-link>
+    <router-link to="/user/frank">User Frank1</router-link>
     <br>
     <router-link to="/user/lisa">User Lisa</router-link>
     <br>
