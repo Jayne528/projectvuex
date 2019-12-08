@@ -15,7 +15,7 @@
     <br>
     <router-link to="/test">To Page Test</router-link>
     <br>
-    <router-link to="/user/frank">User Frank</router-link>
+    <router-link to="/user/frank">User FrankAWWW</router-link>
     <br>
     <router-link to="/user/lisa">User Lisa</router-link>
     <br>
