@@ -11,16 +11,16 @@
     </ul>
     <button @click="setTodos(['amy','bobo','cidy'])">Update Todos</button>
     <br>
-      <button @click="loadTodos">load TodosA</button>
+      <button @click="loadTodos">load Todos</button>
     <br>
     <router-link to="/test">To Page Test</router-link>
     <br>
-    <router-link to="/user/frank">User Frank1</router-link>
+    <router-link to="/user/frank">User FrankAWWW</router-link>
     <br>
     <router-link to="/user/lisa">User Lisa</router-link>
     <br>
-    <router-link to="/user/id/1">User 1234</router-link>git remote add origin
-    <router-link to="/user/id/2">User 222</router-link>
+    <router-link to="/user/id/1">User 1</router-link>git remote add origin
+    <router-link to="/user/id/2">User 2</router-link>
     <router-link to="/user/id/3">User 3</router-link>
     <transition name="page" mode="out-in">
       <router-view :key="$route.path"/>
